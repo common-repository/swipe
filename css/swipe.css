@@ -1,0 +1,909 @@
+.qr_wrap .form-table{
+    font-size: 14px;
+    background: #fff;
+    padding: 5px;
+	box-shadow: 3px 3px 3px #ddd;	
+	margin: 0;
+}
+.form-table th {
+    text-align: left;
+    padding: 10px 0px;
+	font-size: 16px;
+}
+.form-table td {
+    text-align: left;
+	padding: 10px 0px;
+	border-bottom: 1px #dddddd solid;
+    padding-bottom: 20px;
+}
+p .blue-btn{
+	background:#4bb4ff;
+	color:#fff;
+	border:0px;
+	border-radius:3px;
+	padding:12px 30px;
+	font-size:16px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.qr_wrap .title {
+    padding: 5px 0;
+    background: #fff;
+}
+.wrap setting_wrap .button-primary {
+    background: #27ae60;
+    border-color: #008438 #008438 #008438;
+    box-shadow: 0 1px 0 #008438;
+    text-shadow: 0 -1px 1px #27ae60, 1px 0 1px #27ae60, 0 1px 1px #27ae60, -1px 0 1px #27ae60;
+}
+.qr_wrap .form-table td p {
+    margin-top: 0;
+}
+/**/
+.barcode rect {
+    animation: groove 1s forwards infinite;
+}
+.barcode:not(:root) {
+    overflow: visible;
+    margin-top: 15px;
+}
+.qr_login {
+    margin-bottom: 20px;
+	text-align:center;
+}
+#login form .forgetmenot {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.login #nav {
+    text-align: center;
+}
+.login #backtoblog, .login #nav {
+    text-align: center;
+}
+/**/
+.setting_wrap.wrap {
+    background: #fff;
+    box-shadow: 3px 3px 3px #ddd;
+	padding:20px;
+margin-top:20px;	
+}
+.setting_wrap.wrap .title {
+	color: #000;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom:1px #dddddd solid;
+}
+.setting_wrap.wrap .title img{
+	float:left;
+	margin-right:10px;
+}
+.setting_wrap.wrap form {
+	padding: 0px;
+}
+.setting_wrap.wrap input[type=checkbox]:checked:before {
+	color: #4bb4ff;
+}
+/**/
+.swipeBtnDv {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  margin-top: 15px;
+}
+
+/* Hide default HTML checkbox */
+.swipeBtnDv input {display:none;}
+
+.swipeLoginButton {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #00a0d2;
+	-webkit-transition: .4s;
+	transition: .4s;
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	padding-top: 6px;
+	outline:none !important;
+}
+
+.swipeLoginButton:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.swipeBtnDv input:checked + .swipeLoginButton {
+  background-color: #2196F3;
+}
+
+.swipeBtnDv input:focus + .swipeLoginButton {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.swipeBtnDv input:checked + .swipeLoginButton:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.swipeLoginButton.round {
+  border-radius: 34px;
+}
+
+.swipeLoginButton.round:before {
+  border-radius: 50%;
+}
+
+
+.swip-down{
+	width:96%;
+	background:#fff;
+	padding:20px;
+	border:1px #dddddd solid;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+.swip-down h1 img{
+	float:left;
+	margin-right:10px;
+}
+.swip-down h1{
+	font-size:22px;
+	color:#000;
+	font-weight:500;
+}
+
+.swip-down .andro{
+	width:100%;
+	padding:20px 0px;
+	border-bottom:1px #dddddd solid;
+	border-top:1px #dddddd solid;
+	margin-top: 15px;
+}
+.swip-down .andro .get-on p{
+	float: left;
+    width: 100px;
+	font-size:16px;
+	color:#404040;
+	margin: 0px;
+    font-weight: 500;
+	margin-top: 5px;
+}
+.swip-down .andro .get-on{
+	padding: 10px 0px;
+}
+.swip-down .andro .get-on img{
+	width:auto;
+}
+ .swip-down .description{
+	font-size:16px;
+	margin-top: 15px;
+}
+.swip-down .andro .get-on select{
+	width: 200px;
+    min-height: 40px;
+    font-size: 14px;
+    border: 1px #dddddd solid;
+    box-shadow: none;
+    padding: 8px;
+	background-image: url("../images/drop.png");
+	background-repeat: no-repeat;
+    background-position: right 10px center;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance: none;
+}
+.swipe-2 .description{
+	margin-top:0px !important;
+}
+.swipe-2 .blue-btn{
+	
+}
+.swipe-2 .andro{
+	border-bottom:0px !important;
+}
+
+.swipe-3 .andro{
+	border:0px;
+	margin-top:0px;
+	border-bottom:1px #dddddd solid;
+	padding: 10px 0px;
+}
+.swipe-3 h1{
+	border-bottom:1px #dddddd solid;
+	padding-bottom: 20px !important;
+}
+.swipe-3 .andro .get-on p{
+	width:130px;
+	margin-top: -4px;
+}
+.swipe_no_data {
+	background: #fff;	
+	border: 1px solid red;	
+	padding: 10px;	
+	font-weight: bold;
+}
+.page_clef_wrap::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.page_clef_wrap .lSideCol {
+    float: left;
+    width: 60%;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.page_clef_wrap .lSideCol h3 {
+    font-size: 18px;
+}
+.page_clef_wrap .lSideCol h3 .smText {
+	font-size: 15px;
+	font-weight: 500;
+	color: #808080;
+}
+.page_clef_wrap .lSideCol h3 .smText a{
+	font-size: 15px;
+	font-weight: 500;
+	color: #808080;
+	text-decoration:none;
+}
+.page_clef_wrap .rSideCol {
+    float: left;
+    width: 40%;
+	box-sizing: border-box;
+}
+.page_clef_wrap .clefRow::after {
+	content:"";
+	display:table;
+	clear:both;
+}
+.page_clef_wrap .clefRow{
+	background:#e9e9e9;
+	margin-bottom:15px;
+	padding:15px;
+}
+.page_clef_wrap .clefRow .text{
+	float:left;
+	width:70%;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 22px;
+}
+.page_clef_wrap .clefRow .field{
+	float:left;
+	width:30%;
+	text-align:right;
+}
+.page_clef_wrap .clefRow .field .select{
+	width:90%;
+	border:1px solid #ddd;
+}
+.page_clef_wrap .rSideCol h4 {
+    font-size: 16px;
+	margin-bottom: 17px;
+}
+.page_clef_wrap .rSideCol .clefLoginForm label {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #72777c;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .forgetmenot{
+	float: left;
+    width: 50%;
+	box-sizing: border-box;
+}
+.page_clef_wrap .rSideCol .clefLoginForm {
+    border: 1px solid #ddd;
+    padding: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .submitDv{
+	float: left;
+    width: 50%;
+	box-sizing: border-box;
+	text-align: right;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .forgetmenot label {
+	margin: 0;
+	margin-top: 7px;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .qr_login p{
+	margin-top:0;
+	margin-bottom: 0;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .qr_login p strong{
+	font-weight:700;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .swipeBtnDv {
+	width: 60%;
+}
+.page_clef_wrap .rSideCol .clefFormwplogo {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.swipeLoginButtonInn {
+	background: #00a0d2;
+	color: #fff !important;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 0 15px;
+	border-radius: 4px;
+	line-height:30px
+}
+.swipeLoginButtonInn::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.swipeLoginButtonInn .swipeFormWave{
+	border-right:1px solid #58b0e0;
+	display: inline-block;
+	height:30px;
+	float:left;
+	padding-top: 10px;
+	padding-right: 8px;
+}
+.swipeLoginButtonInn .swipeLoginText{
+	padding-left:13px;
+	display: inline-block;
+	padding-top: 5px;
+	float:left;
+	height:30px;
+}
+.swipewaveBox {
+	border: 1px solid #ddd;
+	text-align: center;
+	padding: 50px 20px;
+	padding-bottom: 33px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	display:none;
+}
+.swipe_msg {
+	clear: both;
+}
+.swipe_msg .swipe_msg_success {
+    margin: 0;
+	background-color: #dff0d8;
+	padding: 8px;
+	border: 1px solid #d6e9c6;
+	clear: both;
+	font-size: 14px;
+	color: #3c763d;
+	display:block;
+	margin-top:8px;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	font-weight:600;
+}
+.swipeFormwpicon{
+	border-right: 1px solid #58b0e0;
+	display: inline-block;
+	height: 30px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 12px;
+}
+.swipeFormwpicon img{
+	margin-top:-2px;
+	vertical-align: top;
+}
+.frontSwipe #qr_login {
+	padding-bottom: 50px;
+}
+.mainFormoTxt{
+	text-align:center;
+}
+.mainFormBtnDv {
+	text-align: center;
+	height: inherit;
+	margin-bottom: 20px;
+}
+.swipeotxt{
+	margin-bottom:20px;
+}
+.swipewaveBox .waveBoxInner{
+	padding-bottom:30px;
+}
+.waveFooterArea .or{	
+	margin-bottom:20px;
+}
+.waveFooterArea .or strong{
+	font-weight:700;
+}
+.middle_align td{
+	vertical-align:middle;
+}
+.swipeqrPopWrap{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.swipeqrPopWrapOverlay{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+}
+.swipeqrPopWrap .swipeqrPopTbl{
+	display:table;
+	width:100%;
+	height:100%;
+}
+.swipeqrPopWrap .swipeqrPopTbl .swipeqrPopCel{
+	display:table-cell;
+	vertical-align:middle;
+	padding:0 30px;
+}
+.swipeqrPopWrap .swipeqrPopInner{
+	max-width:400px;
+	padding:30px;
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+	border-radius:5px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+.swipeqrPopWrap .swipeqrPopInner .qrCodeImg {
+	text-align: center;
+}
+.swipeqrPopWrap .swipeqrPopInner .topSec label{
+	font-weight:700;
+	font-size:16px;
+	line-height: normal;
+	display:block;
+	text-align: center;
+}
+.swipeqrPopWrap .swipeqrPopInner .topSec label .smText{
+	font-weight:500;
+}
+.swipeqrPopWrap .swipeqrPopInner .closeSwipeqrPop {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+	font-size: 30px;
+	height: 20px;
+	width: 20px;
+	line-height: 14px;
+}
+.swipeqrPopWrap .swipeqrPopInner .topSec h3 {
+	margin-top: 0;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
+.swipeqrPopWrap .swipeqrPopInner .topSec h3 .icon {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.swipeqrPopWrap .swipeqrPopInner .topSec h3 .icon img{
+	width:20px;
+}
+.swipeqrPopWrap .swipeqrPopInner .topSec h3 .text{
+	display:inline-block;
+}
+.swipeTabContent{
+	display:none;
+	padding:30px;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+.swipeTabContent.current{
+	display:block;
+}
+.swipeuserTab::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.swipeuserTab{
+	border-bottom:1px solid #ddd;
+	margin: 0;
+}
+.swipeuserTab li {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	padding: 15px 30px;
+	border: 1px solid #ddd;
+	float: left;
+	border-bottom: none;
+	font-size: 16px;
+	font-weight: 600;
+}
+.swipeuserTab li.current {
+	background: #3597d9;
+	color: #fff;
+	border: 1px solid #3597d9;
+	border-bottom: 1px solid #3597d9;
+}
+.swipeTabContent table thead tr{
+	background: #343638 !important;
+}
+.swipeTabContent table thead th{
+	color:#fff;
+	border-right: 1px dotted #575b5f;
+}
+.swipeTabContent table td{
+border-right: 1px dotted #ddd;
+}
+.swipeTabContent table tr:nth-child(even) {background: #f4f4f4}
+.swipeTabContent table tr:nth-child(odd) {background: #fff}
+.swipeTabContent table .swipeAppUserList{
+	margin:0;
+	padding:0;
+}
+.swipeTabContent table .swipeAppUserList li{
+	list-style:inside;
+}
+.swipeTabContent table .swipeAppUserList li a{
+	color: #555;
+	font-weight: 600;	
+	text-decoration: underline;
+}
+.swipeTabContent table .swipeAppUserList li a:hover{
+	color:#3597d9;
+}
+.swipeTabContent table .swipeAppUserListNone {
+	color: #ce4f0a;
+}
+.swipeUserListPopWrap{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.swipeUserListPopWrapOverlay{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+}
+.swipeUserListPopWrap .swipeUserListPopTbl{
+	display:table;
+	width:100%;
+	height:100%;
+}
+.swipeUserListPopWrap .swipeUserListPopTbl .swipeUserListPopCel{
+	display:table-cell;
+	vertical-align:middle;
+	padding:0 30px;
+}
+.swipeUserListPopWrap .swipeUserListPopInner{
+	max-width:550px;
+	padding:30px;
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+	border-radius:5px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+.swipeUserListPopWrap .swipeUserListPopInner .closeSwipeUserListPop {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+	font-size: 30px;
+	height: 20px;
+	width: 20px;
+	line-height: 14px;
+}
+.swipeUserListPopWrap .swipeUserListPopInner .topSec h3 {
+	margin-top: 0;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
+.swipeUserListPopWrap .swipeUserListPopInner .sUserDtGrp {
+	padding: 10px 0;
+	border-bottom: 1px solid #ededed;
+}
+.swipeUserListPopWrap .swipeUserListPopInner .sUserDtGrp::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.swipeUserListPopWrap .swipeUserListPopInner .sUserDtGrp .hText {
+	float: left;
+	width: 30%;
+	font-weight: 600;
+}
+.swipeUserListPopWrap .swipeUserListPopInner .sUserDtGrp .subText{
+	float:left;
+}
+.swipeUserListPopWrap .action_swipe_app_user {
+	margin-top: 10px;
+}
+.swip-down .andro.twoColWrap::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.swip-down .andro.twoColWrap .twoCol{
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+}
+.swip-down .andro.twoColWrap .rborder{
+	border-right:1px solid #ddd;
+}
+.swip-down .andro.twoColWrap .alignCeter{
+	text-align:center;
+}
+.swipeDocumentation * {box-sizing: border-box}
+
+/* Style the tab */
+.swipeDocWrap .tab {
+    float: left;
+    /*border: 1px solid #ccc;*/
+    background-color: #f1f1f1;
+    width: 20%;
+    height: auto;
+	border-right: none;
+	position: relative;
+}
+
+/* Style the buttons inside the tab */
+.swipeDocWrap .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+	font-weight: 600;
+}
+
+/* Change background color of buttons on hover */
+.swipeDocWrap .tab button:hover {
+    background-color: #ddd;
+}
+.swipeDocWrap .tab button:hover::after {
+	content:"";
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;   
+  border-right:10px solid #fff;
+  position:absolute;
+  right: 0;
+}
+/* Create an active/current "tab button" class */
+.swipeDocWrap .tab button.active {
+	background-color: #3697d9;
+	color: #fff;
+}
+.swipeDocWrap .tab button.active::after {
+	content:"";
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;   
+  border-right:10px solid #fff;
+  position:absolute;
+  right: 0;
+}
+/* Style the tab content */
+.swipeDocWrap .tabcontent {
+    float: left;
+    padding: 30px;
+    width: 80%;
+    height: auto;
+}
+#install_app ul li {
+    display: inline;
+    float: left;
+    width: 18.5%;
+    margin-right: 20px;
+}
+#install_app ul li img{
+	width: 100%;
+}
+.swipeDocWrap {
+	border: 1px solid #ddd;
+	margin-top: 30px;
+	position:relative;
+}
+.swipeDocWrap::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.swipeDocWrap::before {
+	content: "";
+	background-color: #f1f1f1;
+	position: absolute;
+	left: 0;
+	width: 20%;
+	height: 100%;
+}
+.swipeDocWrap .swipeTwoColWrap::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.swipeDocWrap .swipeTwoColWrap .swipeTwoCol{
+	float:left;
+	width:50%;
+}
+.swipeDocWrap .swipeTwoColWrap .swipeTwoCol.rBorder{
+	border-right:1px solid #ddd;
+}
+.swipeDocWrap .swipeTwoColWrap .swipeTwoCol h4{
+	font-size:18px;
+	margin:0;
+}
+.swipeDocWrap  h4.lgText{
+	font-size:18px;
+}
+.swipeDocWrap .swipeTwoColWrap .swipeTwoCol.padr15{
+	padding-right:15px;
+}
+.swipeDocWrap .swipeTwoColWrap .swipeTwoCol.padl15{
+	padding-left:15px;
+}
+.swipeDocWrap .alignCenter{
+	text-align:center;
+}
+.swipeDocWrap h3.innerHead {
+	margin-top: 0;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.swipeDocWrap .imgresponsive{
+	max-width:100%;
+}
+.swipeDocWrap .maxwdImg .imgresponsive{
+	max-width:330px;
+	width:100%;
+}
+.swipeDocWrap .subhead{
+	text-align:center;
+	font-size:16px;
+	margin-bottom:30px;
+}
+#plugin_settings .swipeTwoCol h4 {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
+#plugin_settings .swipeTwoCol{
+	padding:15px;
+	border:1px solid #ddd;
+}
+.swipeDocWrap .borderEle{
+	border:1px solid #ddd;
+}
+.swipeDocWrap .pad15{
+	padding:15px;
+}
+.swip-down .andro.twoColWrap .noteText, .swipeDocWrap .swipeTwoColWrap .swipeTwoCol .noteText{
+	margin-top: 15px;
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+.swipeDocWrap .tab button {
+	padding: 20px 8px;
+	font-size: 14px;
+}
+.swipeDocWrap .maxwdImg .imgresponsive {
+	max-width: 300px;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .swipeBtnDv {
+		width: 100%;
+}
+}
+@media screen and (min-width:768px) and (max-width:991px){
+.swipeDocWrap .tab button {
+	padding: 18px 5px;
+	font-size: 13px;
+}
+.swipeDocWrap .tab {
+	width: 25%;
+}
+.swipeDocWrap .tabcontent {
+	width: 75%;
+}
+.swipeDocWrap::before {
+	width: 25%;
+}
+.swipeDocWrap .maxwdImg .imgresponsive {
+	max-width: 280px;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .swipeBtnDv {
+	width: 100%;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .forgetmenot {
+	width: 60%;
+}
+.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .submitDv {
+	width: 40%;
+}
+.page_clef_wrap .clefRow .field .select {
+	font-size: 12px !important;
+}
+}
+@media screen and (max-width:767px){
+	.page_clef_wrap .lSideCol {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+	}
+	.page_clef_wrap .rSideCol {
+		float: none;
+		width: 100%;
+	}
+	.page_clef_wrap .rSideCol .clefLoginForm .swipeBtnDv {
+		width: 100%;
+	}
+	.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .forgetmenot {
+		width: 60%;
+	}
+	.page_clef_wrap .rSideCol .clefLoginForm .clefLoginFooter .submitDv {
+		width: 40%;
+	}
+	.page_clef_wrap .clefRow .text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+.swipeLoginButtonInn .barcode rect{animation:grooveInn 1s forwards infinite}
+.swipeLoginButtonInn .barcode:not(:root){overflow:visible;margin-top:0px}
+.keyy-wave>rect{display:none}
+@keyframes grooveInn{0%,100%{transform:translatey(-25px)}50%{transform:translatey(25px)}}
+
+
+.swipewaveBox .barcode rect{animation:groovebox 1s forwards infinite}
+.swipewaveBox .barcode:not(:root){overflow:visible;margin-top:0px}
+@keyframes groovebox{0%,100%{transform:translatey(-25px)}50%{transform:translatey(25px)}}
